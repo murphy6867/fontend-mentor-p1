@@ -19,7 +19,7 @@
     }
 
     body {
-      background-image: url("images/background.jpg");
+        background-image: url("images/background.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -73,6 +73,7 @@
     .content :first-child {
       color: #000;
       font-weight: 700;
+      font-size: 1.2rem;
     }
 
     .content :last-child {
@@ -97,7 +98,7 @@
         background-color: #fff;
         border-radius: 20px;
         box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-        padding-top: 3px;
+        padding-top: 6px;
       }
     }
 
@@ -137,19 +138,19 @@
   </style>
 </head>
 <body>
-  <div class="ContentContainer boxProps flex-column center">
+  <main role="MainContainer" class="ContentContainer boxProps flex-column center">
     <div class="qrcodeContainer boxProps flex-column center">
       <div class="qrcode boxProps backgroundProps"></div>
       <div class="content boxProps">
-        <h3>Improve Your front-end skills by building projects</h3>
+        <h1>Improve Your front-end skills by building projects</h1>
         <br>
         <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
       </div>
     </div>
-  </div>
-  <div class="attribution">
+  </main>
+  <footer role="footerContainer" class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Sonsawan Ngamsom</a>.
-  </div>
+  </footer>
 </body>
 </html>
